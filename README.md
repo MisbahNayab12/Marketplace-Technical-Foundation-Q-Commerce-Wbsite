@@ -3,4 +3,4 @@
 
 ![System Architecture](https://excalidraw.com/#json=icsLmpjJYZ4rXP2GeB6mb,9NE1OOokDMkQf5RrAk3iIg)
 
-![Image](./System Architecture.png)
+![Image](./image_System Architecture.png)
