@@ -1,7 +1,6 @@
 # Marketplace Technical Foundation Q-Commerce Wbsite
- This document is based on my planning related to technical foundation of my Q-commerce market place.
 
-![System Architecture](https://excalidraw.com/#json=icsLmpjJYZ4rXP2GeB6mb,9NE1OOokDMkQf5RrAk3iIg)
-
+## Front-end interaction with Sanity CMS and Third Party APIs
+The image below shows visual representation of how each component in my system interact with each other. 
 ![Image](./System%20Architecture.png)
 
