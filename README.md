@@ -1,4 +1,4 @@
-# Marketplace Technical Foundation Q-Commerce Wbsite
+# System Architecture Overview
 
 ## Front-end interaction with Sanity CMS and Third Party APIs
 The image below shows visual representation of how each component in my system interact with each other. 
