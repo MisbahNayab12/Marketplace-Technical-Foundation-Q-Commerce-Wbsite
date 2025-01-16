@@ -29,7 +29,7 @@ The image below shows visual representation of how each component in my system i
 - When a user places an order, the payment API validates the credit card/payment info.
 - Sends back confirmation to the backend and logs the payment in the system.
 
-## Key Workflows
+# Key Workflows
 ### 1. Content Fetching (User Browses the Marketplace)
 User view products > Frontend requests product > Backend retrieves content from Sanity CMS > Frontend displays the fetched content to the user.
 
