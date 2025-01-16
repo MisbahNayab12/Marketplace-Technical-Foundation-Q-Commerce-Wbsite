@@ -29,3 +29,12 @@ The image below shows visual representation of how each component in my system i
 - When a user places an order, the payment API validates the credit card/payment info.
 - Sends back confirmation to the backend and logs the payment in the system.
 
+## Key Workflows
+### 1. Content Fetching (User Browses the Marketplace)
+User view products > Frontend requests product > Backend retrieves content from Sanity CMS > Frontend displays the fetched content to the user.
+
+### 2. Order Placement
+User clicks 'Order Now' in the frontend > Frontend sends order details to the backend > Backend actions sends order data to Sanity CMS for storage, creates a shipment via Logistics API (returns tracking ID) and processes payment via Payment API > Frontend confirms the order and displays the tracking ID.
+
+### 3. Order Tracking
+User clicks Track My Order in the frontend > Frontend sends tracking request to backend >Backend fetches status from Logistics API (e.g., "Out for delivery") > Frontend displays shipment status to the user.
